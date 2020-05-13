@@ -1,0 +1,25 @@
+###
+GET http://localhost:3000/api/courses
+
+###
+GET http://localhost:3000/api/courses/5
+
+###
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{ 
+   "id":5,
+   "name":"RxJS"
+}
+
+###
+PUT http://localhost:3000/api/courses/5
+Content-Type: application/json
+
+{
+    "name":"Redux"
+}
+
+###
+DELETE http://localhost:3000/api/courses/5
